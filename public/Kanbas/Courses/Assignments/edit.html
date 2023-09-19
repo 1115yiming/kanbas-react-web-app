@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td valign="top">
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/index.html">Account</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="/Kanbas/Courses/Home/home.html">Courses</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </td>
+            <td valign="top">
+                <ul>
+                    <li><a href="/Kanbas/Courses/Home/home.html">Home</a></li>
+                    <li><a href="#">Modules</a></li>
+                    <li><a href="#">Piazza</a></li>
+                    <li><a href="#">Zoom Meetings</a></li>
+                    <li><a href="/Kanbas/Courses/Assignments/index.html">Assignments</a></li>
+                    <li><a href="#">Quizzes</a></li>
+                    <li><a href="/Kanbas/Courses/Grades/grades.html">Grades</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Panopto Video</a></li>
+                    <li><a href="#">Discussions</a></li>
+                    <li><a href="#">Announcement</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Rubrics</a></li>
+                    <li><a href="#">Outcomes</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="/Kanbas/Courses/Settings/courseDetails.html">Settings</a></li>
+                </ul>
+            </td>
+            <td valign="top">
+                <select>
+                    <option value="SPEEDGRADER">SpeedGrader</option>
+                </select>
+                <h3>Assignment Name</h3>
+                <input
+                        type="text"
+                        value="Assingment 1 - HTML"
+                        id="assignmentName"
+                        placeholder="Assignment Name"
+                />
+
+                <h3>Description</h3>
+                <textarea cols="50" rows="5">
+  This is the first assignment to build Kanbas
+  </textarea>
+
+                <h3>Points</h3>
+                <input value="100" type="number" max="100" min="50" step="5" />
+
+                <h3>Submission Type</h3>
+                <select>
+                    <option value="ONLINE">Online</option>
+                </select>
+
+                <h3>Online Entry Option</h3>
+                <input type="checkbox" id="textEntry" />
+                <label for="textEntry">Text Entry</label><br />
+                <input type="checkbox" checked /> Website URL <br />
+                <label> <input type="checkbox" /> Media Recordings </label> <br />
+                <input type="checkbox" /> Student Annotation<br />
+                <input type="checkbox" /> File Uploads<br />
+
+                <h3>Submission Attempts</h3>
+                <select>
+                    <option value="UNLIMITED">Unlimited</option>
+                </select>
+
+                <h3>Plagiarism Review</h3>
+                <select>
+                    <option value="NONE">None</option>
+                </select>
+
+                <h3>Group Assignment</h3>
+                <input type="checkbox" /> This is a group assignment<br />
+
+                <h3>Peer Reviews</h3>
+                <input type="checkbox" /> Require peer reviews<br />
+
+                <h3>Assign To</h3>
+                <input
+                        type="text"
+                        value="Everyone"
+                        id="assignto"
+                        placeholder="Assign To"
+                />
+
+                <h3>Due Date</h3>
+                <input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+
+                <h3>Available From</h3>
+                <input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+
+                <h3>Until</h3>
+                <input type="date" value="2020-09-16" min="2020-09-04" max="2020-09-23" />
+
+                <br/>
+                <br/>
+                <button type="button">Cancel</button>
+                <button type="button">Save</button>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
