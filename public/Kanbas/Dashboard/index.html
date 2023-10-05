@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanbas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #kanbas-sidebar {
+      width: 85px;
+      background-color: black;
+      color: red;
+      text-align: center;
+      padding-top: 20px;
+      position: fixed;
+      height: 100%;
+    }
+
+    #kanbas-sidebar a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 5px;
+    }
+
+    #kanbas-sidebar a:hover {
+      background-color: white;
+      color: red;
+    }
+
+    #kanbas-sidebar .active {
+      background-color: white;
+      color: red;
+    }
+
+    #kanbas-sidebar .fa {
+      color: red; /* Default color for icons */
+    }
+
+    #kanbas-sidebar .fa-account {
+      color: white; /* Specific color for Account icon */
+    }
+
+    #dashboard-content {
+      margin-top: 50px;
+      margin-left: 100px;
+      padding: 20px;
+      max-width: 1400px;
+    }
+
+    .course-card {
+      width: 270px;
+      margin: 0 30px 40px 0;
+    }
+
+
+  </style>
+</head>
+
+<body>
+<div id="kanbas-sidebar">
+  <a href="/Kanbas/Account/Profile/index.html"><i class="fas fa-user fa-lg fa-user"></i><br>Account</a>
+  <a href="/Kanbas/Dashboard/index.html" class="active"><i class="fas fa-home fa-lg"></i><br>Dashboard</a>
+  <a href="/Kanbas/Courses/Assignments/index.html"><i class="fas fa-book fa-lg"></i><br>Courses</a>
+  <a href="#"><i class="fas fa-calendar fa-lg"></i><br>Calendar</a>
+  <a href="#"><i class="fas fa-inbox fa-lg"></i><br>Inbox</a>
+  <a href="#"><i class="fas fa-history fa-lg"></i><br>History</a>
+  <a href="#"><i class="fas fa-film fa-lg"></i><br>Studios</a>
+  <a href="#"><i class="fas fa-users fa-lg"></i><br>Commons</a>
+  <a href="#"><i class="fas fa-question-circle fa-lg"></i><br>Help</a>
+</div>
+
+<div id="content">
+
+</div>
+
+<div id="dashboard-content">
+  <h2>Dashboard</h2>
+  <hr>
+
+  <h4>Published Courses (7)</h4>
+
+  <div class="d-flex flex-row flex-wrap">
+    <!-- Course Cards -->
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5610 Web Development</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5200 Database Management</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5800 Algorithms</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5004 Object Oriented Design</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5008 Data Structure and Algorithms</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5001 CS Foundation</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+    <div class="card course-card">
+      <img src="Dashboard.jpeg" class="card-img-top" alt="Course 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#">CS5002 Discrete Structure</a></h5>
+        <p class="card-text">202410_Fall 2023 full semester</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</body>

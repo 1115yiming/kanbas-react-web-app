@@ -1,0 +1,72 @@
+/*
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    width: 80px;
+    margin: 0px;
+}
+
+.wd-kanbas-navigation li {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+    background-color: white;
+}
+.wd-kanbas-navigation li.wd-active a {
+    color: red;
+}
+
+.wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-kanbas-navigation a i {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#kanbas-sidebar {
+    width: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+#kanbas-sidebar a {
+    text-decoration: none;
+    color: red; /* Default color for icons */
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#kanbas-sidebar a i.fas.fa-user {
+    color: white; /* Color for Account icon */
+}
+
+#kanbas-sidebar a:hover {
+    background-color: white;
+    color: red;
+}
+
+#kanbas-sidebar .active {
+    background-color: white;
+    color: red;
+}
