@@ -23,7 +23,7 @@ function Grades() {
                 <input
                     title="Type the name of the assignment to search for"
                     className="form-control mb-2"
-                    placeholder="Search Assignments"
+                    placeholder="Search Index"
                 />
 
                 <button className="btn btn-primary mb-2">Apply Filters</button>
