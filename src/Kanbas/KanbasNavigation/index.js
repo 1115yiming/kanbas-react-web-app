@@ -53,7 +53,7 @@ import { Link, useLocation } from "react-router-dom";
 // import './index.css';
 
 function KanbasNavigation() {
-    const links = ["Signin","Account", "Signup","Dashboard"];
+    const links = ["Signin","Account", "Signup","Dashboard", "Courses"];
     const icons = ["fa-regular fa-circle-user fa-xl","fa-regular fa-circle-user fa-xl","fa-solid fa-arrow-right-from-bracket fa-xl",
                    "fa-solid fa-gauge fa-xl","fa-solid fa-book fa-xl", "fa-solid fa-calendar-days fa-xl",
                    "fa-solid fa-inbox fa-xl", "fa-regular fa-clock fa-xl","fa-solid fa-film fa-xl",
